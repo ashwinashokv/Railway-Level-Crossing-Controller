@@ -1,0 +1,39 @@
+# Read Verilog
+read_verilog railway_controller.v
+
+# Set top module
+hierarchy -top railway_controller
+
+# Convert processes to logic
+proc
+
+# Optimize
+opt
+
+# Convert FSM
+fsm
+
+# Optimize again
+opt
+
+# Convert memories (if any)
+memory
+
+# Optimize
+opt
+
+# Technology independent synthesis
+techmap
+opt
+
+# Show RTL schematic
+show -format png -prefix rtl
+
+# Generic synthesis
+synth
+
+# Statistics
+stat
+
+# Write synthesized netlist
+write_verilog railway_controller_netlist.v

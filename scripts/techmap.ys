@@ -1,0 +1,13 @@
+read_verilog railway_controller.v
+
+hierarchy -top railway_controller
+
+synth
+
+abc
+
+clean
+
+show -format png -prefix techmap
+
+stat

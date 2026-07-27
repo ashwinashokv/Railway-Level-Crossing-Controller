@@ -29,7 +29,7 @@ An **Automatic Railway Level Crossing Controller** implemented in **Verilog HDL*
 
 ## 📂 Repository Structure
 
-```
+
 Railway-Level-Crossing-Controller/
 │
 ├── src/
@@ -55,7 +55,7 @@ Railway-Level-Crossing-Controller/
 │   └── railway.vcd
 │
 └── README.md
-```
+
 
 ---
 
